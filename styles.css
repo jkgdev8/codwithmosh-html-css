@@ -1,12 +1,41 @@
-h1{
+h1 {
     color: red;
     font-size: 50px;
 }
 
-input:focus{
+input:focus {
     background: yellow;
 }
 
-input:hover{
+input:hover {
     background: blue;
+}
+
+#julienne {
+    width: 200px;
+
+    border-radius: 100px;
+    float: left;
+    margin-right: 10px;
+}
+
+.username {
+    font-weight: bold;
+}
+
+#team {
+    color: purple;
+}
+
+em {
+    color: red;
+    font-style: normal;
+
+}
+
+
+#port {
+    width: 200px;
+    object-fit: cover;
+
 }
