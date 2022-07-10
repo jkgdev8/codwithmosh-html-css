@@ -39,3 +39,7 @@ em {
     object-fit: cover;
 
 }
+
+video {
+    width: 400px;
+}
