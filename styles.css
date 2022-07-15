@@ -47,3 +47,7 @@ video {
 li:nth-child(1) {
     font-weight: bold;
 }
+
+
+ul {
+    list-style-type: decimal-leading-zero
