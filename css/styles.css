@@ -24,3 +24,21 @@ p {
 a[target] {
     color: red;
 }
+
+/* Or */
+/* href* will search for words that contain */
+a[href*="google"] {
+    color: gold;
+}
+
+/* Or */
+/* href^ will search for words that begin with */
+a[href^="https"] {
+    color: pink;
+}
+
+/* Or */
+/* you can double up on conditions href$ ends with */
+a[href^="https"][href=".com"] {
+    color: purple;
+}
