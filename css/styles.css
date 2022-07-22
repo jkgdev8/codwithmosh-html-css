@@ -1,0 +1,26 @@
+body {
+    margin: 10px;
+}
+
+h1 {
+    background-color: gray;
+    color: black;
+}
+
+.abaloz {
+    color: goldenrod;
+}
+
+p {
+    background-color: gray;
+    color: aqua;
+}
+
+#products {}
+
+.product {}
+
+/* it will check for existing a tags/anchor with a target attribute */
+a[target] {
+    color: red;
+}
