@@ -2,17 +2,25 @@ body {
     margin: 10px;
 }
 
-h1 {
-    background-color: gray;
-    color: black;
-}
-
-/* will only select the 'p' tags after the selected id */
-/* #products+p {
-    color: orange;
+/* a psuedo-selector first child of the element */
+/* article :first-child {
+    font-size: 140%;
+    font-style: italic;
 } */
 
+/* a psuedo-selector first of type of the element */
+/* article p:first-of-type {
+    font-size: 140%;
+    font-style: italic;
+} */
 
-#products~p {
-    color: orange;
+/* a psuedo-selector last child of the element */
+article :last-child {
+    font-size: 140%;
+    font-style: italic;
+}
+
+/* nth child psuedo selectoryou can pass an argument */
+ul li:nth-child(even) {
+    color: red;
 }
