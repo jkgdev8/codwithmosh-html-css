@@ -7,38 +7,12 @@ h1 {
     color: black;
 }
 
-.abaloz {
-    color: goldenrod;
-}
+/* will only select the 'p' tags after the selected id */
+/* #products+p {
+    color: orange;
+} */
 
-p {
-    background-color: gray;
-    color: aqua;
-}
 
-#products {}
-
-.product {}
-
-/* it will check for existing a tags/anchor with a target attribute */
-a[target] {
-    color: red;
-}
-
-/* Or */
-/* href* will search for words that contain */
-a[href*="google"] {
-    color: gold;
-}
-
-/* Or */
-/* href^ will search for words that begin with */
-a[href^="https"] {
-    color: pink;
-}
-
-/* Or */
-/* you can double up on conditions href$ ends with */
-a[href^="https"][href=".com"] {
-    color: purple;
+#products~p {
+    color: orange;
 }
