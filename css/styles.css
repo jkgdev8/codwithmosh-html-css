@@ -2,26 +2,20 @@ body {
     margin: 10px;
 }
 
-/* double colon for pseudo elements, and single colon for psuedo classes*/
-p::first-letter {
-    font-weight: bold;
+h1 {
+    color: dodgerblue
 }
 
-/* pseudo element bolds first line */
-p::first-line {
-    font-weight: bold;
+
+.highlight {
+    color: deeppink
 }
 
-p::selection {
-    background-color: red;
+/* the most specific selector */
+#products {
+    color: green
 }
 
-p::before {
-    content: '...sadasd';
-    display: block;
-}
-
-p::after {
-    content: '...sadasd';
-    display: block;
+.highlight#products {
+    color: blue;
 }
