@@ -2,25 +2,26 @@ body {
     margin: 10px;
 }
 
-/* a psuedo-selector first child of the element */
-/* article :first-child {
-    font-size: 140%;
-    font-style: italic;
-} */
-
-/* a psuedo-selector first of type of the element */
-/* article p:first-of-type {
-    font-size: 140%;
-    font-style: italic;
-} */
-
-/* a psuedo-selector last child of the element */
-article :last-child {
-    font-size: 140%;
-    font-style: italic;
+/* double colon for pseudo elements, and single colon for psuedo classes*/
+p::first-letter {
+    font-weight: bold;
 }
 
-/* nth child psuedo selectoryou can pass an argument */
-ul li:nth-child(even) {
-    color: red;
+/* pseudo element bolds first line */
+p::first-line {
+    font-weight: bold;
+}
+
+p::selection {
+    background-color: red;
+}
+
+p::before {
+    content: '...sadasd';
+    display: block;
+}
+
+p::after {
+    content: '...sadasd';
+    display: block;
 }
