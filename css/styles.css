@@ -11,11 +11,12 @@ h1 {
     color: deeppink
 }
 
-/* the most specific selector */
+
 #products {
     color: green
 }
 
+/* the most specific selector */
 .highlight#products {
     color: blue;
 }
