@@ -2,21 +2,13 @@ body {
     margin: 10px;
 }
 
-h1 {
-    color: dodgerblue
+p {
+    color: dodgerblue;
+    border: 1px solid;
 }
 
-
-.highlight {
-    color: deeppink
-}
-
-
-#products {
-    color: green
-}
-
-/* the most specific selector */
-.highlight#products {
-    color: blue;
+/* the strong element wont get its inheritance from the p tag when you definew */
+strong {
+    color: initial;
+    border: inherit;
 }
