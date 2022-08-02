@@ -9,6 +9,6 @@ p {
 
 /* the strong element wont get its inheritance from the p tag when you definew */
 strong {
-    color: initial;
+    color: red;
     border: inherit;
 }
