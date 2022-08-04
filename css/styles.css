@@ -16,5 +16,5 @@ strong {
 .box {
     width: 200px;
     height: 200px;
-    background-color: rgb(255, 0, 0);
+    background-color: rgba(255, 0, 0, 0.5);
 }
