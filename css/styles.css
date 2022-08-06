@@ -2,27 +2,17 @@ body {
     margin: 10px;
 }
 
-p {
-    color: dodgerblue;
-    border: 1px solid;
+table {}
+
+th {
+    background-color: dodgerblue;
+    color: white;
+    display: ;
+
 }
 
-/* the strong element wont get its inheritance from the p tag when you definew */
-strong {
-    color: red;
-    border: inherit;
-}
+td {}
 
-.box {
-    width: 600px;
-    height: 200px;
-    /* gradients */
-    background: rgb(2, 47, 84);
-    background: linear-gradient(90deg, rgba(2, 47, 84, 1) 38%, rgba(2, 85, 124, 1) 45%, rgba(2, 70, 109, 1) 55%, rgba(0, 212, 255, 1) 76%, rgba(2, 0, 36, 1) 92%);
-    border: 10px solid blue;
-    border-top: 40px solid red;
-    border-right: 30px solid red;
-    border-bottom: 20px solid red;
-    border-left: 10px solid red;
-    border-radius: 10px;
+tr:nth-child(odd) {
+    background-color: #eef7ff
 }
