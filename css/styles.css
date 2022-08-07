@@ -2,17 +2,10 @@ body {
     margin: 10px;
 }
 
-table {}
-
-th {
-    background-color: dodgerblue;
-    color: white;
-    display: ;
-
-}
-
-td {}
-
-tr:nth-child(odd) {
-    background-color: #eef7ff
+.box {
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    background-color: tomato;
+    box-shadow: 10px 10px lightgrey;
 }
