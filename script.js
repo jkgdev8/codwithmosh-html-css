@@ -7,3 +7,4 @@ function Circle(radius) {
 
 const c = new Circle(1)
 console.log(c);
+console.log(c.radius);
