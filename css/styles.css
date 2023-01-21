@@ -8,4 +8,5 @@ body {
     height: 200px;
     background-color: tomato;
     box-shadow: 10px 10px lightgrey;
+    float: left;
 }
